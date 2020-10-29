@@ -1,0 +1,76 @@
+@font-face {
+  font-family: "DidotW01-Italic";
+  src: url("../../../assets/Didot-W01-Italic.ttf") format("truetype");
+}
+
+.home {
+  margin: 180px 0px 0 0;
+  overflow-y: hidden;
+}
+
+.company {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.name {
+  font-family: DidotW01-Italic, serif;
+  letter-spacing: 0.1em;
+  font-size: 2.5rem;
+  margin-bottom: 0;
+}
+
+.tagline {
+  font-family: DidotW01-Italic, serif;
+  font-size: 1.2rem;
+  letter-spacing: 0.05em;
+  margin: 0;
+  padding: 0;
+}
+
+.image {
+  margin-top: 54px;
+}
+
+.image img {
+  object-fit: contain;
+  width: 100%;
+  min-height: 631px;
+}
+
+.form {
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+  align-items: end;
+}
+.input {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  margin-bottom: 0;
+}
+
+.inputType {
+  font-size: x-small;
+  padding-bottom: 3%;
+}
+
+.date {
+  width: 200px;
+  height: 100%;
+}
+
+.number {
+  width: 50px;
+  height: 100%;
+}
+
+.inputSearch {
+  width: 150px;
+  padding-top: 3%;
+  background: black;
+  color: white;
+}

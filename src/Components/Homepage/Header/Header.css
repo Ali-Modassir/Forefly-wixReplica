@@ -1,0 +1,157 @@
+@import url(//db.onlinewebfonts.com/c/6dd2f2510b4a00a5461b2455928209c2?family=BrandonGrotW01-Light);
+
+@font-face {
+  font-family: "BrandonGrotW01-Light";
+  src: url("//db.onlinewebfonts.com/t/6dd2f2510b4a00a5461b2455928209c2.eot");
+  src: url("//db.onlinewebfonts.com/t/6dd2f2510b4a00a5461b2455928209c2.eot?#iefix")
+      format("embedded-opentype"),
+    url("//db.onlinewebfonts.com/t/6dd2f2510b4a00a5461b2455928209c2.woff2")
+      format("woff2"),
+    url("//db.onlinewebfonts.com/t/6dd2f2510b4a00a5461b2455928209c2.woff")
+      format("woff"),
+    url("//db.onlinewebfonts.com/t/6dd2f2510b4a00a5461b2455928209c2.ttf")
+      format("truetype"),
+    url("//db.onlinewebfonts.com/t/6dd2f2510b4a00a5461b2455928209c2.svg#BrandonGrotW01-Light")
+      format("svg");
+}
+
+@font-face {
+  font-family: "wixFreemiumFontW01-65Medi";
+  font-weight: bold;
+  src: url("//static.parastorage.com/services/third-party/fonts/Helvetica/Fonts/07fe0fec-b63f-4963-8ee1-535528b67fdb.eot?#iefix");
+  src: url("//static.parastorage.com/services/third-party/fonts/Helvetica/Fonts/07fe0fec-b63f-4963-8ee1-535528b67fdb.eot?#iefix")
+      format("eot"),
+    url("//static.parastorage.com/services/third-party/fonts/Helvetica/Fonts/60be5c39-863e-40cb-9434-6ebafb62ab2b.woff")
+      format("woff"),
+    url("//static.parastorage.com/services/third-party/fonts/Helvetica/Fonts/4c6503c9-859b-4d3b-a1d5-2d42e1222415.ttf")
+      format("truetype"),
+    url("//static.parastorage.com/services/third-party/fonts/Helvetica/Fonts/36c182c6-ef98-4021-9b0d-d63122c2bbf5.svg#36c182c6-ef98-4021-9b0d-d63122c2bbf5")
+      format("svg");
+}
+
+.Header {
+  position: fixed;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.DesktopTop {
+  display: flex;
+  justify-content: center;
+  background: #eff1f2;
+  width: 100%;
+  border-bottom: 3px solid #a0138e;
+  padding: 3px;
+}
+
+.DesktopTop a {
+  text-decoration: none;
+  /* height: 50px; */
+  display: flex;
+}
+
+.DesktopTop a .anchorContent {
+  display: flex;
+  text-decoration: none;
+}
+
+.DesktopTop .text {
+  color: #20303c;
+  font-family: wixFreemiumFontW01-65Medi, wixFreemiumFontW02-65Medi,
+    wixFreemiumFontW10-65Medi, Helvetica Neue, Helvetica, Arial, メイリオ,
+    meiryo, ヒラギノ角ゴ pro w3, hiragino kaku gothic pro, sans-serif;
+  font-size: 13px;
+  line-height: 38px;
+  flex-shrink: 0;
+}
+
+.DesktopTop .anchorContent .button {
+  margin-left: 6px;
+  margin-top: 2px;
+  font-family: wixFreemiumFontW01-65Medi, wixFreemiumFontW02-65Medi,
+    wixFreemiumFontW10-65Medi, Helvetica Neue, Helvetica, Arial, メイリオ,
+    meiryo, ヒラギノ角ゴ pro w3, hiragino kaku gothic pro, sans-serif;
+  font-size: 14px;
+  color: #a0138e;
+  border: 1px solid #a0138e;
+  display: inline-flex;
+  width: 112px;
+  height: 35px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 17px;
+  flex-shrink: 0;
+  text-align: center;
+}
+
+.DesktopTop .anchorContent .button:hover {
+  color: white;
+  background: #a0138e;
+}
+
+.DesktopTop .WixLogo {
+  fill: #20303c;
+  width: 36px;
+  padding: 10px 0px 0 4px;
+  height: 16px;
+  vertical-align: middle;
+}
+
+.Navbar {
+  width: 100%;
+  background: #242323;
+  /* border-bottom: 2px solid blue; */
+}
+
+.Navbar ul {
+  list-style: none;
+  padding: 0 14% 0 14%;
+  display: flex;
+  flex-direction: row;
+  flex-shrink: 0;
+  flex-wrap: nowrap;
+  justify-content: center;
+  white-space: nowrap;
+  height: 40px;
+  box-sizing: border-box;
+
+  /* line-height: 35px; */
+}
+
+.Navbar ul li {
+  display: inline-block;
+  font: normal normal normal 0.8rem/2.6rem brandon-grot-w01-light, sans-serif;
+  padding: 0 25px;
+  color: #d4d1d1;
+  cursor: pointer;
+  transition: color 0.4s ease 0s;
+}
+.Navbar ul li:hover {
+  color: #696666;
+}
+
+.Navbar ul li button {
+  background-color: transparent;
+  border: solid rgba(255, 255, 255, 1) 1px;
+  cursor: pointer !important;
+  height: 42px;
+  width: 142px;
+  color: wheat;
+  font: normal normal 700 14px/1.4em brandon-grot-w01-light, sans-serif;
+  transition: color 0.4s ease 0s;
+}
+
+.Navbar ul li button:hover {
+  background-color: #fff;
+  color: black;
+}
+
+@media (max-width: 834px) {
+  .Navbar ul li {
+    font-size: 0.7rem;
+  }
+  .DesktopTop .text {
+    font-size: 11px;
+  }
+}
