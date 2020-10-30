@@ -1,0 +1,58 @@
+@font-face {
+  font-family: "brandon-grot-w01-light";
+  src: url("../../../assets/brandon-grotesque-light.otf") format("truetype");
+}
+
+.Reviews {
+  margin: 150px 0 150px 0;
+}
+
+.reviewContainer {
+  text-align: center;
+  background-image: url("../../../assets/pic1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-top: 54px;
+  min-height: 631px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.roomCard {
+  width: 390px;
+  height: auto;
+  background-color: white;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.roomHeading {
+  margin: 53px 0px 0px 0;
+  color: #2a2323;
+  font: normal normal normal 25px/1.4em brandon-grot-w01-light, sans-serif;
+}
+
+.roomtagline {
+  margin: 0px 0px 25px 0;
+  width: 320px;
+  font: italic normal normal 18px/1.4em brandon-grot-w01-light, sans-serif;
+  word-wrap: break-word;
+  line-height: 1.5em;
+  text-align: center;
+  color: #737373;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 40px;
+  cursor: pointer;
+}
+
+.dots {
+  font-size: 2em;
+}

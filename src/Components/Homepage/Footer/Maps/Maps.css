@@ -1,0 +1,8 @@
+.siteFooter {
+  width: 100vw;
+  height: 300px;
+  color: white;
+  text-align: center;
+  flex-shrink: 0;
+  background-color: black;
+}

@@ -1,0 +1,81 @@
+@font-face {
+  font-family: "brandon-grot-w01-light";
+  src: url("../../../assets/brandon-grotesque-light.otf") format("truetype");
+}
+
+.About {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 67px 0 0 0;
+}
+
+.heading {
+  font: normal normal normal 25px/1.4em brandon-grot-w01-light, sans-serif;
+  color: #242323;
+}
+
+.tagline {
+  font: italic normal normal 18px/1.4em brandon-grot-w01-light, sans-serif;
+  word-wrap: break-word;
+  line-height: 1.5em;
+  text-align: center;
+  width: 650px;
+}
+
+.ourRooms {
+  text-align: center;
+  background-image: url("../../../assets/pic1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-top: 54px;
+  min-height: 631px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.roomCard {
+  width: 390px;
+  height: auto;
+  background-color: white;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.roomHeading {
+  margin: 53px 0px 0px 0;
+  font: normal normal normal 25px/1.4em brandon-grot-w01-light, sans-serif;
+}
+
+.roomtagline {
+  margin: 0px 0px 25px 0;
+  width: 320px;
+  font: italic normal normal 18px/1.4em brandon-grot-w01-light, sans-serif;
+  word-wrap: break-word;
+  line-height: 1.5em;
+  text-align: center;
+  color: #737373;
+}
+
+.roomBtn {
+  margin: 0px 0px 63px 0;
+}
+.roomBtn button {
+  background-color: white;
+  color: black;
+  font: normal normal normal 14px/1.4em brandon-grot-w01-light, sans-serif;
+  border: 2px solid black;
+  padding: 8%;
+  width: 150px;
+  margin: 2%;
+  white-space: nowrap;
+}
+
+.roomBtn button:hover {
+  color: white;
+  background-color: black;
+}

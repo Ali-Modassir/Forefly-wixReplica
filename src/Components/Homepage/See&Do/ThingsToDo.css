@@ -1,0 +1,24 @@
+@font-face {
+  font-family: "brandon-grot-w01-light";
+  src: url("../../../assets/brandon-grotesque-light.otf") format("truetype");
+}
+
+.ThingsToDo {
+  display: flex;
+  flex-direction: column;
+  margin: 67px 0 0 0;
+  align-items: center;
+}
+
+.heading {
+  font: normal normal normal 25px/1.4em brandon-grot-w01-light, sans-serif;
+}
+.heading h4 {
+  margin: 0;
+}
+
+.Cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
